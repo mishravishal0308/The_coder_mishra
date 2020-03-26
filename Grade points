@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float n;
+    printf("Enter a grade point:\n");
+    scanf("%f",&n);
+    if(n<1&&n>=0)
+        printf("F");
+    else if(n<2&&n>=1)
+        printf("E");
+    else if(n<3&&n>=2)
+        printf("D");
+        else if(n<4&&n>=3)
+        printf("C");
+        else if(n<4.5&&n>=4)
+        printf("B");
+        else if(n<5&&n>=4.5)
+        printf("A");
+        else
+            printf("O");
+    return 0;
+}
