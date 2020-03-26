@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+int  main()
+{
+float r,d;
+
+printf("enter your amount");
+scanf("%f",&d);
+r=d*(75.09);
+printf("you have rupees %f",r);
+}
+
